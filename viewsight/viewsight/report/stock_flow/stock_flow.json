@@ -1,0 +1,41 @@
+{
+ "add_total_row": 0,
+ "add_translate_data": 0,
+ "columns": [],
+ "creation": "2025-06-25 17:37:31.228773",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": "",
+ "letterhead": null,
+ "modified": "2025-06-25 17:38:31.610124",
+ "modified_by": "Administrator",
+ "module": "Viewsight",
+ "name": "Stock Flow",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Stock Entry Type",
+ "report_name": "Stock Flow",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Manufacturing Manager"
+  },
+  {
+   "role": "Stock Manager"
+  },
+  {
+   "role": "Stock User"
+  },
+  {
+   "role": "All"
+  }
+ ],
+ "timeout": 0
+}
