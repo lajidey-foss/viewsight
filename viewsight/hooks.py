@@ -27,8 +27,6 @@ app_license = "mit"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/viewsight/css/viewsight.css"
 # app_include_js = "/assets/viewsight/js/viewsight.js"
-# below to overide report footer
-app_include_js = "/assets/viewsight/overrides/js/viewsight.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/viewsight/css/viewsight.css"
