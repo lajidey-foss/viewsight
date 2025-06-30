@@ -1,5 +1,5 @@
 {
- "add_total_row": 0,
+ "add_total_row": 1,
  "add_translate_data": 0,
  "columns": [],
  "creation": "2025-06-25 17:37:31.228773",
@@ -11,7 +11,7 @@
  "is_standard": "Yes",
  "letter_head": "",
  "letterhead": null,
- "modified": "2025-06-25 17:38:31.610124",
+ "modified": "2025-06-29 11:24:57.411544",
  "modified_by": "Administrator",
  "module": "Viewsight",
  "name": "Stock Flow",
