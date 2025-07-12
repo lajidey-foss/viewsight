@@ -2,18 +2,18 @@
 // For license information, please see license.txt
 
 const status_colors = {
-			Draft: "red",
-			Unpaid: "orange",
-			Paid: "green",
-			Return: "gray",
-			"Credit Note Issued": "gray",
-			"Unpaid and Discounted": "orange",
-			"Partly Paid and Discounted": "yellow",
-			"Overdue and Discounted": "red",
-			Overdue: "red",
-			"Partly Paid": "yellow",
-			"Internal Transfer": "darkgrey",
-		};
+	Draft: "red",
+	Unpaid: "orange",
+	Paid: "green",
+	Return: "gray",
+	"Credit Note Issued": "gray",
+	"Unpaid and Discounted": "orange",
+	"Partly Paid and Discounted": "yellow",
+	"Overdue and Discounted": "red",
+	Overdue: "red",
+	"Partly Paid": "yellow",
+	"Internal Transfer": "darkgrey",
+};
 
 frappe.query_reports["Party Sales Register"] = {
 	filters: [
@@ -73,12 +73,12 @@ frappe.query_reports["Party Sales Register"] = {
 		}
 
 		try {
-			if(column.fieldname == 'status'){
+			if(column.fieldname == 'status') {
 				//console.log('12     3 :'+ data.status);
 				value = `<span class='indicator-pill ${status_colors[data.status]} filterable no-indicator-dot ellipsis'> ${value}</span>`
 			}
 		} catch (err) {
-			console.log('invalid')
+			console.log("invalid")
 			console.log(err)
 		}
 
@@ -88,10 +88,3 @@ frappe.query_reports["Party Sales Register"] = {
 };
 
 erpnext.utils.add_dimensions("Sales Register", 7);
-
-/* function(i,e){
-	<span class="indicator-pill green filterable no-indicator-dot ellipsis" ></span>
-		element = `<span class='indicator-pill ${status_colors[doc.status]} filterable no-indicator-dot ellipsis'`;
-} 
-//status_colors[doc.status]
-*/
