@@ -238,3 +238,17 @@ doctype_js = {"Sales Invoice" : "viewsight/mix/invoice_ext.js"}
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {
+        "doctype": "Custom Field",
+        "filters": [
+            [
+                "name", "in",
+                (
+                    "Sales Invoice-custom_quick_info",
+                ),
+            ]
+        ],
+    },
+]
+
