@@ -1,0 +1,34 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"TXYM_0Uw9N\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Directors</span>\",\"col\":12}},{\"id\":\"pHHd8VeZxY\",\"type\":\"paragraph\",\"data\":{\"text\":\"views\",\"col\":12}},{\"id\":\"6MPbfWLowS\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Daily In Cash\",\"col\":4}}]",
+ "creation": "2025-07-13 23:23:06.179114",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "menu",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Directors",
+ "links": [],
+ "modified": "2025-07-13 23:42:00.712445",
+ "modified_by": "Administrator",
+ "module": "Viewsight",
+ "name": "Directors",
+ "number_cards": [
+  {
+   "label": "Daily In Cash",
+   "number_card_name": "Daily Cash Inflow"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 29.0,
+ "shortcuts": [],
+ "title": "Directors"
+}
